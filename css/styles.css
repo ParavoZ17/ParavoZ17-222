@@ -1,0 +1,65 @@
+
+/*цвет основного текста #212121*/
+/*цвет вторичного текста #757575*/
+/* специальный цвет #FFFFFF*/
+/*акцент #2196F3*/
+/*фон херо и футер #2F303A */
+/*фон хедер*/
+
+:root{--prymary-text-color: #212121;
+--secondary-text-color: #757575;
+--akcent-text-color: #2196F3;
+--bgc-main: #ffffff;
+--bgc-secondary: #2F303A;}
+    
+
+
+
+body { background-color: var(--bgc-main);
+color: var(--prymary-text-color);}
+
+.list {
+    list-style: none;
+}
+
+/* оформленя хедеру*/
+
+.logo {color: var(--prymary-text-color);
+}
+.logo>span { 
+    color: var(--akcent-text-color);
+}
+.site-nav a {
+    color: var(--prymary-text-color);
+}
+.site-contacts a {color: var(--secondary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--akcent-text-color);
+}
+.site-contacts a:hover,
+.site-contacts a:focus {color: var(--akcent-text-color);
+}
+.link.current {color: var(--akcent-text-color);}
+
+/* hero */
+
+.hero {color: #ffffff;
+    background-color: var(--bgc-secondary);
+}
+.button {color: #ffffff
+; background-color: var(--akcent-text-color);}
+
+/* section */
+
+.section {color: var(--prymary-text-color);}
+.section .text {color: var(--secondary-text-color)}
+
+
+/* footer */
+footer {background-color: var(--bgc-secondary);}
+.address > p{color: #ffffff;}
+address a {color: rgba(255, 255, 255, 0.6);}
+footer .logo {color: #ffffff;}
