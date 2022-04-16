@@ -163,9 +163,9 @@ address a {
 footer .logo {
     color: var(--main);}
 
-.address-mail:hover,
-.address-phone {
-    border: 1px solid #2196F3;
+.list .mail:hover,
+.list .phone:hover{
+    color:#2196F3;
 }
 
     /* ----------------portfolio-------------------- */
